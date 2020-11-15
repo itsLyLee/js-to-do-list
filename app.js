@@ -9,5 +9,6 @@ todoButton.addEventListener("click", addTodo);
 //Functions
 
 function addTodo(event) {
-  console.log("hello");
+  //Prevent form from submitting
+  event.preventDefault();
 }
