@@ -22,4 +22,5 @@ function addTodo(event) {
   //CHECK MARK BUTTON
   const completedButton = document.createElement("button");
   completedButton.innerHTML = '<i class ="fas fa-check"></i>';
+  completedButton.classList.add("complete-btn");
 }
