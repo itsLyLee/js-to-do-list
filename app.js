@@ -24,4 +24,6 @@ function addTodo(event) {
   completedButton.innerHTML = '<i class ="fas fa-check"></i>';
   completedButton.classList.add("complete-btn");
   todoDiv.appendChild(completedButton);
+  //APPEND TO LIST
+  todoList.appendChild(todoDiv);
 }
