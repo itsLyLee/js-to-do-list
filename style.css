@@ -73,6 +73,10 @@ form button:hover {
   color: white;
   border: none;
   padding: 1rem;
-  cursor: pointer
+  cursor: pointer;
   font-size: 1rem;
+}
+
+.complete-btn {
+  background: rgb(73, 204, 73);
 }
