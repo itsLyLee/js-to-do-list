@@ -41,7 +41,6 @@ function deleteCheck(e) {
   if (item.classList[0] === "trash-btn") {
     const todo = item.parentElement;
     todo.classList.add("fall");
-    todo.remove();
   }
 
   //Checkmark
