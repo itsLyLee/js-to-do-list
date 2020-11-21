@@ -42,7 +42,9 @@ function deleteCheck(e) {
     const todo = item.parentElement;
     //Animation
     todo.classList.add("fall");
-    todo.addEventListener("transitioned", function () {});
+    todo.addEventListener("transitioned", function () {
+      todo.remove();
+    });
   }
 
   //Checkmark
