@@ -97,6 +97,9 @@ form button:hover {
 }
 
 select {
-  -webkit-appeareance: none;
+  -webkit-appearance: none;
   -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
 }
