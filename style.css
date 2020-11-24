@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -80,6 +80,10 @@ form button:hover {
 
 .complete-btn {
   background: rgb(73, 204, 73);
+}
+
+.todo-item {
+  padding: 0rem 0.5rem;
 }
 
 .fa-trash,
