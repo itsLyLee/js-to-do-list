@@ -57,5 +57,7 @@ function deleteCheck(e) {
 
 function filterTodo(e) {
   const todos = todoList.childNodes;
-  console.log(todos);
+  todos.forEach(function (todo) {
+    switc(e.target.value);
+  });
 }
