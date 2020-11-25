@@ -58,6 +58,12 @@ function deleteCheck(e) {
 function filterTodo(e) {
   const todos = todoList.childNodes;
   todos.forEach(function (todo) {
-    switc(e.target.value);
+    switch (e.target.value) {
+      case "all":
+        break;
+      case "completed":
+        if (todo.classList.contains("completed")) {
+        }
+    }
   });
 }
