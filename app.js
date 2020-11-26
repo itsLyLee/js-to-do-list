@@ -69,7 +69,7 @@ function filterTodo(e) {
           todo.style.display = "none";
         }
       case "uncompleted":
-        if (!todo.classList.contains) "completed";
+        if (!todo.classList.contains ("completed"))
     }
   });
 }
