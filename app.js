@@ -93,3 +93,7 @@ function saveLocalTodos(todo) {
   todos.push(todo);
   localStorage.setItem("todos", JSON.stringify(todos));
 }
+
+function getTodos() {
+  let todos;
+}
