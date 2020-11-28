@@ -96,4 +96,11 @@ function saveLocalTodos(todo) {
 
 function getTodos() {
   let todos;
+  //CHECK--Do I already have a thing in there?
+  let todos;
+  if (localStorage.getItem("todos") === null) {
+    todos = [];
+  } else {
+    todos = JSON.parse(localStorage.getItem("todos"));
+  }
 }
