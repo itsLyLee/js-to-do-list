@@ -83,4 +83,10 @@ function filterTodo(e) {
 function saveLocalTodos(todo) {
   //CHECK--Do I already have a thing in there?
   let todos;
+  if (localStorage.getItem("todos") === null) {
+    todos = [];
+  } else {
+    todos = JSON.parse(localStorage.getItem("todos"));
+  }
+  todos.push(todo);
 }
