@@ -109,11 +109,10 @@ function getTodos() {
     todoDiv.classList.add("todo");
     //Create Li
     const newTodo = document.createElement("li");
-    newTodo.innerText = todoInput.value;
+    newTodo.innerText = todo;
     newTodo.classList.add("todo-item");
     todoDiv.appendChild(newTodo);
-    //ADD TODO TO LOCALSTORAGE
-    saveLocalTodos(todoInput.value);
+
     //CHECK MARK BUTTON
     const completedButton = document.createElement("button");
     completedButton.innerHTML = '<i class ="fas fa-check"></i>';
