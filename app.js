@@ -89,4 +89,5 @@ function saveLocalTodos(todo) {
     todos = JSON.parse(localStorage.getItem("todos"));
   }
   todos.push(todo);
+  localStorage.setItem("todos", JSON.stringify(todos));
 }
