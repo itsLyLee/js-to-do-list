@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: linear-gradient(120deg, #e2c35d, #d88771);
+  background-image: linear-gradient(120deg, #e2c35d 0%, #d88771 100%);
   color: white;
   font-family: "Indie Flower", sans-serif;
   min-height: 100vh;
@@ -63,6 +63,9 @@ form button:hover {
   align-items: center;
   transition: all 0.5s ease;
 }
+.filter-todo {
+  padding: 1rem;
+}
 
 .todo li {
   flex: 1;
@@ -103,11 +106,14 @@ form button:hover {
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
+  -ms-appearance: none;
   appearance: none;
-  outline: none;
+  outline: 0;
   border: none;
+  box-shadow: none;
+  background-image: none;
 }
-
+/* Custom Select */
 .select {
   margin: 1rem;
   position: relative;
